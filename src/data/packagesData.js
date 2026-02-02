@@ -1,0 +1,435 @@
+export const packagesData = {
+    himachal: [
+        {
+            id: 'h1',
+            title: 'Shimla Manali from Delhi Tour',
+            duration: '5 Nights / 6 Days',
+            price: '₹18,500',
+            rating: 4.8,
+            image: '/images/shimala-manali.jpg',
+            features: ['Sightseeing', 'Hotel', 'Meals', 'Transport'],
+            overview: 'Travel from Delhi to Shimla and Manali, enjoying scenic hills, snow adventures, local sightseeing, and memorable Himalayan experiences.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Shimla', desc: 'After arriving in Delhi, get ready to be transferred to Shimla. Check-in at the hotel and spend the day at leisure. You can explore the local markets, shops, and more. Return to the hotel for an overnight stay.' },
+                { day: 2, title: 'Shimla & Kufri Sightseeing Tour', desc: 'Enjoy your sightseeing tour of the Jakhoo Hilltop and the temple of Lord Hanuman before moving towards Kufri. In Kufri, explore the Himalayan Zoo, before heading back to Shimla and continuing your sightseeing tour. Visit Mall Road, Ridge Road, and more. Overnight stay at the hotel. (Lunch excluded)' },
+                { day: 3, title: 'Arrival in Manali via Kullu', desc: 'Check-out and get transferred to Manali via Kullu while making a stop at Pandoh Dam. Later, visit the National Park, rabbit farm, and more in Kullu before continuing your journey to Manali. Upon arrival in Manali, check-in for an overnight stay. (Lunch excluded)' },
+                { day: 4, title: 'Manali Sightseeing Tour', desc: 'Get picked up for a full-day sightseeing tour of Manali. Explore the beautiful scenery, and famous attractions like Tibetan Monastery, Vashisht Kund, and Hadimba Devi Temple. Later, have fun at the Club House amusement retreat. Get transferred to the hotel for an overnight stay. (Lunch excluded)' },
+                { day: 5, title: 'Excursion to Rohtang Pass and Solang Valley', desc: 'Get ready for your day trip to Rohtang Pass and Solang Valley. Enjoy the scenery on your way to Rohtang Pass in Lahaul Valley. Later, get transferred to Solang where you can enjoy adventure activities like paragliding. Get transferred to the hotel for an overnight stay. (Lunch excluded)' },
+                { day: 6, title: ' Departure Day', desc: 'Pack your bags and check out from your hotel in Manali. Driver will pick you up from the hotel and take you to the Manali bus stand from where you will board your bus to Delhi. The trip comes to an end upon reaching Delhi.' }
+            ],
+            inclusions: ['Accommodation in 3 Star Hotels', 'Daily Breakfast and Dinner', 'Private Cab for Sightseeing (Sedan/SUV)', 'Toll Tax, Parking, and Driver Allowance', 'Welcome Drink on Arrival'],
+            exclusions: ['Airfare / Train fare', 'Lunch', 'Entry fees to monuments/parks', 'Adventure activities (Paragliding, River Rafting)', 'Personal expenses']
+        },
+        {
+            id: 'h2',
+            title: 'Blissful Kullu Manali Tour',
+            duration: '3 Nights / 4 Days',
+            price: '₹32,000',
+            rating: 4.9,
+            image: '/images/kullu-manali.jpg',
+            features: ['Delhi ', 'Kullu ', 'Manali', 'Solang Valley'],
+            overview: 'Enjoy a blissful Kullu Manali tour with snow peaks, lush valleys, adventure activities, temples, and refreshing mountain experiences.',
+            itinerary: [
+                { day: 1, title: ' Arrival in Manali', desc: 'The journey begins from Delhi via Volvo and we’ll head towards Manali traveling overnight for 560 Km. The next morning we’ll reach Manali.' },
+                { day: 2, title: ' Manali Local Sightseeing', desc: 'On the 2nd day of the trip, we’ll do local sightseeing of the place including the popular Hadimba Temple, unleash the beautiful Vashisht Hot Spring, Clun House, Van Vihar, Tibetian Monastery and will also explore Manali Road.' },
+                { day: 3, title: 'Manali To Solang Valley', desc: 'The very next day, we’ll next head towards the Solang Valley wherein we’ll enjoy the various types of adventure activities (At Own Cost) including paragliding, zorbing, snow scooter ride. However, if the time allows, we’ll conduct a short visit to the famous AnjaliMahadev temple.' },
+                { day: 4, title: 'Manali To Delhi | Departure', desc: 'The next day, we’ll check out from the hotel and head back to Delhi via Volvo. And here, this amazing journey comes to an end. So, if you’re planning for the Manali trip, avail your holiday package today' },
+            ],
+            inclusions: ['3 Star Hotels', 'Breakfast & Dinner', 'Private Cab', 'Sightseeing'],
+            exclusions: ['Lunch', 'Monuments Fee', 'Adventure Sports']
+        },
+        {
+            id: 'h3',
+            title: 'Heaven Himachal Tour Package',
+            duration: '8 Nights / 9 Days',
+            price: '₹6,999',
+            rating: 4.7,
+            image: '/images/hmtour.jpg',
+            features: ['Delhi ', 'Shimla ', 'Manali ', 'Daramshala', 'Dalhousie'],
+            overview: 'Explore heavenly Himachal with snow-capped mountains, lush valleys, peaceful hill towns, and unforgettable scenic experiences for a perfect escape.',
+            itinerary: [
+                { day: 1, title: ' Delhi to Shimla', desc: 'Arrival in Delhi at Railway Station or Airport meet & greet with our executive & transfer to Shimla ( 375 k.m. and 9 hours journey) check in to hotel and evening free for Heritage Mall road Shimla.' },
+                { day: 2, title: ' Shimla Kufri sightseeing', desc: 'After breakfast at hotel leave for sight-seeing of Shimla you will see places like Green Valley,Kufri,Indira tourist park, Himalayan Nature park at Chini banglow and Fagu valley.There are other places to see in Shimla palces like Chail, Naldehara,Nakanda and Tatapani but you cannot cover these places in this tour itinerary if you want cover these place you have to stay minimum 4 nights in shimla.' },
+                { day: 3, title: 'Shimla to Manali', desc: 'After breakfast leave for Manali it is 280 k.m. from shimla journey time to 9 hours see on the way places like Sunder Nagar lake, Pandoh dam, Vaishno Devi Temple at Kullu and you can enjoy river rafting in Kullu and overnight stay in Manali' },
+                { day: 4, title: 'Manali Local sight seeing', desc: 'After Breakfast, Half Day local sightseeing of Manali “HADIMBA TEMPLE” Built in 1553 with a superbly crafted four tiered pagoda roof, it is famous for its exquisitely carved doorway . “CLUB HOUSE” The Club House with its comprehensive facilities that include a roller skating rink, an auditorium, billiards rooms, a library, a bar and restaurant makes wonderful outing for the day.” Tibetan Monastery, Van Vihar, and “VASHIST” Well known for its hot springs. There are old temples dedicated to the sage Vashisth and to Lord Rama. overnight stay at Hotel in Manali.' },
+                { day: 5, title: ' Solang Valley Sightseeing', desc: 'Today morning after breakfast full fun in Solang Valley. Dinner & overnight stay in Manali. SolangNala (Valley) drives its name from combination of words Solang (Nearby village) and Nullah (water stream). It is a side valley at the top of the Kullu Valley in Himachal Pradesh, India 14 km northwest of the resort town Manali on the way to Rohtang Pass, and is known for its summer and winter sport conditions. The sports most commonly offered are parachuting, paragliding, skating and zorbing. Snow melts during the summer months starting May and skiing is then replaced by zorbing (a giant ball with room for 2 people which is rolled down a 200 metre hill), paragliding, parachuting and horse riding.' },
+                { day: 6, title: ' Manali to Dharamshala', desc: 'After having breakfast depart for Dharamshala(240 k.m.) enroute visit Palampur tea garden (9 hr. Journey) Check in to Hotel and overnight stay.' },
+                { day: 7, title: 'Half Day Dharamshala Sightseeing & Depart to Delhousie', desc: 'After Breakfast visit Half Day sight seeing (Dalai Lamas Palace, Buddhist Monasteries) and depart for Dalhousie(118 k.m.) overnight stay.' },
+                { day: 8, title: 'Full day excursion to Kalatope & Khajjiar', desc: 'Full day excursion to Kalatope and Khajjiar, India Mini Switzerland, a beautiful glad with the forest at its finger. Overnight stay Dalhousie.' },
+                { day: 9, title: 'Dalhousie to Delhi', desc: 'After Breakfast leave for Delhi (560 k.m.and 12 hours journey) drop at Railway Station / airport to catch onwards Train / Flight.' }
+            ],
+            inclusions: ['Volvo Tickets (Delhi-Manali-Delhi)', '3 Night Stay', 'Breakfast & Dinner', 'Local Cab'],
+            exclusions: ['Lunch', 'Heater Charges', 'Personal Expenses']
+        },
+        {
+            id: 'h4',
+            title: 'Shimla Tour Package',
+            duration: '2 Nights / 3 Days',
+            price: '₹12,500',
+            rating: 4.6,
+            image: '/images/shimla-tour.jpg',
+            features: ['Delhi ', 'Shimla ', 'Kufri ', 'Delhi'],
+            overview: 'Experience the charm of Shimla with scenic hills, colonial heritage, pleasant weather, and memorable sightseeing for a perfect getaway.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Shimla', desc: 'After reaching Shimla check in at hotel .Afternoon is reserved for half day city tour covering Indian Institute of Advanced Studies, Sankat Mochan Temple and Jakhu temple, evening free to stroll in the famous shopping place of Shimla town-The Mall and the Ridge. Dinner and overnight stay at hotel.' },
+                { day: 2, title: 'Shimla & Kufri Sightseeing', desc: 'After breakfast,excursion to Kufri and Mashobra and return back to hotel at afternoon. Rest of the day is reserved for leisure. Dinner and overnight stay at hotel.' },
+                { day: 3, title: 'Shimla To Delhi.', desc: 'Breakfast in hotel and checkout at 12 pm from the hotel.(Luggage can be kept at reception or bell desk*),afternoon is at leisure and one can stroll down the famous mall in Shimla and indulge in shopping.In the evening, board the bus from bus stand for onward/return journey to Delhi by Ac Volvo bus.' },
+            ],
+            inclusions: ['Volvo Tickets', 'Camps/Hotel', 'Trek Guide', 'All Meals during Trek', 'Bonfire'],
+            exclusions: ['Lunch in Shimla', 'Porter/Mule for bags']
+        },
+        {
+            id: 'h5',
+            title: 'Dharamshala Dalhousie Amritsar Tour',
+            duration: '5 Nights / 6 Days',
+            price: '₹14,200',
+            rating: 4.5,
+            image: '/images/dharamshala.jpg',
+            features: ['Delhi ', 'Dharamshala ', 'McLeodganj', 'Dalhousie ', 'Khajjiar'],
+            overview: 'Explore Dharamshala, Dalhousie, and Amritsar with serene monasteries, colonial charm, scenic hills, and patriotic heritage experiences for unforgettable cultural journey.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Amritsar', desc: 'Arrive in Amritsar, where our representative will greet you and take you to your hotel. After a bit of rest, head out to visit the Wagah Border and experience the lively Indo-Pak evening parade ceremony. Return to the hotel in the evening to enjoy a delicious dinner, followed by an overnight stay.' },
+                { day: 2, title: 'Amritsar to Dalhousie', desc: 'After breakfast, begin your local sightseeing tour of Amritsar with a visit to the sacred Golden Temple. Next, see the Durgiana Temple, known for its architecture resembling the Golden Temple. Afterwards, pay tribute to the martyrs at Jallianwala Bagh. Take some time to explore Hall Bazaar, where you can shop for authentic Punjabi handicrafts and artifacts. In the evening, depart for Dalhousie and, upon arrival, enjoy a delicious dinner. Stay overnight at a hotel in Dalhousie.' },
+                { day: 3, title: 'Excursion to Khajjiar', desc: 'After breakfast, we will head to Khajjiar, often called the Mini Switzerland of India. On our way, we’ll stop at Kalatop, a beautiful untouched forest with amazing views. Experience the Swiss atmosphere in Khajjiar, which is also acknowledged by the Swiss government. Next, we’ll visit Chamba, a hill town famous for its stunning natural beauty, including lush meadows, lakes, and streams. After a full day of exploring, we’ll return to Dalhousie for dinner and an overnight stay.' },
+                { day: 4, title: 'Dalhousie to Dharamshala', desc: 'After a hearty breakfast, check out of the hotel and begin your journey to Dharamshala, also known as Little Lhasa. Upon arrival, check in at your hotel and then start your sightseeing. Visit the Bhagsunag Temple, one of the oldest temples in the area, located next to the beautiful Bhagsunag waterfall. Next, enjoy some quiet time in Naddi village, a lovely spot nestled in the peaceful Himalayan surroundings. Explore Tibetan culture by visiting local monasteries and the Tibetan market. After a day filled with activities, enjoy dinner and then stay overnight at your hotel in Dharamshala.' },
+                { day: 5, title: 'Dharamshala Local Sightseeing', desc: 'After a lovely breakfast this morning, begin your tour by visiting the Brajeshwari Temple and Chamunda Devi Temple in Kangra. Afterwards, drive back to Dharamshala and enjoy a delicious dinner. Stay overnight at your hotel in Dharamshala.' },
+                { day: 6, title: 'Departure', desc: 'After a tasty breakfast, pack your bags and cherish the wonderful memories from the mountains. Check out of the hotel and begin your journey back to Amritsar.' }
+            ],
+            inclusions: ['Hotel Stay', 'Breakfast & Dinner', 'Private Cab'],
+            exclusions: ['Train Tickets', 'Lunch', 'Entry Fees']
+        },
+        {
+            id: 'h6',
+            title: 'Tirthan Valley Tour Package',
+            duration: '4 Nights / 5 Days',
+            price: '₹21,000',
+            rating: 4.8,
+            image: '/images/tirthan.jpg',
+            features: ['Jibhi ', 'Jalori pass', 'Serolsar Lake', 'Delhi/Chandigarh'],
+            overview: 'Discover Tirthan Valley’s untouched beauty with riverside serenity, lush forests, trekking trails, and peaceful mountain escapes close to nature.',
+            itinerary: [
+                { day: 1, title: 'Delhi to Aut', desc: 'When you arrive at the designated location in Delhi, the driver will pick you up and take you on an overnight trip to Aut.' },
+                { day: 2, title: 'Aut to Jibhi', desc: 'Upon your arrival in Aut, the driver will meet you at the Aut Tunnel and take you to Jibhi. Check in at your hotel and prepare for a sightseeing tour of Jibhi. First, visit the Jibhi Waterfall, a popular tourist spot. Then, explore Mini Thailand, a beautiful area with small ponds and waterfalls. After your sightseeing tour, you will be taken back to your hotel for an overnight stay in Jibhi.' },
+                { day: 3, title: 'Excursion to Serolsar Lake', desc: 'The driver will pick you up from the hotel and take you to Jalori Pass. Enjoy a scenic hike from Jalori Pass to Serolsar Lake, located 3,100 meters above sea level and offering stunning mountain views. After exploring the lake, trek back to Jalori Pass, where you will be taken back to Jibhi for an overnight stay.' },
+                { day: 4, title: 'Departure to Delhi', desc: 'After checking out, the driver will pick you up from the hotel and take you to Aut Tunnel. On the way, stop in Banjar to visit Chehni Kothi, an impressive wooden building designed in traditional Himachali style. After reaching Aut Tunnel, begin your return journey to Delhi.' },
+                { day: 5, title: 'Arrival at Delhi', desc: 'Upon arriving in Delhi, the driver will drop you off at the designated location, marking the end of your 6-day tour.' },
+            ],
+            inclusions: ['Sattvic/Veg Meals', 'Hotel Stay', 'Temple Darshan Assistance'],
+            exclusions: ['Donations', 'Special Puja Costs']
+        },
+        {
+            id: 'h7',
+            title: 'Himachal Adventure Tour Package',
+            duration: '4 Nights / 5 Days',
+            price: '₹26,500',
+            rating: 4.9,
+            image: '/images/hmadvnture.jpg',
+            features: ['Shimla ', 'Manali ', 'Solang Valley', 'Kasol ', 'Shimla '],
+            overview: 'Experience thrilling Himachal adventures with trekking, river rafting, paragliding, camping, and breathtaking mountain landscapes for adrenaline-filled holidays.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Shimla', desc: 'Your journey begins with a scenic drive to Shimla, the charming capital of Himachal Pradesh. Check into your hotel and unwind amidst the cool mountain breeze. In the afternoon, take a leisurely stroll along the Mall Road, a bustling promenade lined with colonial-era buildings, cafes, and shops. Visit the iconic Ridge and Christ Church, offering panoramic views of the surrounding mountains. End your day with a visit to Jakhoo Temple, dedicated to Lord Hanuman, located atop Jakhoo Hill. Dinner and overnight stay at the hotel in Shimla.' },
+                { day: 2, title: 'Shimla to Manali', desc: 'After breakfast, embark on a picturesque journey to Manali, a stunning hill station nestled in the Kullu Valley. En route, stop at Kullu to explore local markets and enjoy river rafting on the Beas River (optional). Arrive in Manali by evening and check into your hotel. Take a short walk to Mall Road for some shopping or enjoy the serene ambiance of this vibrant town. Relish a delicious dinner and prepare for an adventurous day ahead. Overnight stay in Manali.' },
+                { day: 3, title: 'Solang Valley Adventure', desc: 'Start your day with a hearty breakfast and head to Solang Valley, the adventure capital of Himachal Pradesh. Indulge in thrilling activities like paragliding, zorbing, snowboarding, and skiing (seasonal). Soak in the beauty of snow-capped peaks and lush green meadows. For nature lovers, a short trek or cable car ride to higher altitudes provides stunning vistas. Return to Manali by evening and relax at your hotel. Spend the night reminiscing about your day’s adventures.' },
+                { day: 4, title: 'Manali to Kasol', desc: 'Post breakfast, proceed to the serene village of Kasol, often referred to as the “Mini Israel of India” due to its vibrant hippie culture. En route, visit the ancient Manikaran Sahib Gurudwara, famous for its hot springs and spiritual significance. Upon arrival in Kasol, take a walk along the Parvati River, and explore the vibrant cafes and local markets. You can also opt for a short trek to nearby villages like Chalal for an authentic Himachali experience. Dinner and overnight stay in Kasol.' },
+                { day: 5, title: 'Departure Day', desc: 'On your final day, enjoy breakfast amidst the tranquil beauty of Kasol. Spend some leisurely time exploring the surroundings or picking up souvenirs. Begin your return journey, taking back unforgettable memories of your Himachal adventure. Drop-off at your preferred location marks the end of this exhilarating tour.' },
+            ],
+            inclusions: ['Homestays/Cottages', 'Local Guide', 'Breakfast & Dinner', 'Bonfire'],
+            exclusions: ['Fishing Permit', 'Alcohol', 'Lunch']
+        }
+    ],
+    spiti: [
+        {
+            id: 's1',
+            title: 'Wonderful Spiti Valley Tour Package',
+            duration: '9 Nights / 10 Days',
+            price: '₹19,999',
+            rating: 4.9,
+            image: '/images/spitivalley.jpg',
+            features: ['Delhi ', 'Manali ', 'Kaza ','Chichham  ', 'Dhankar  ', 'Chandratal  ', 'Delhi  '],
+            overview: 'Enjoy a wonderful Spiti Valley tour featuring breathtaking landscapes, ancient monasteries, high-altitude villages, and peaceful Himalayan experiences.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Manali', desc: 'The trip to Spiti Valley begins from overnight traveling from Delhi the capital city to popular summer holiday destiny Manali by Volvo.' },
+                { day: 2, title: 'Manali Day at Leisure', desc: 'The very first day of the trip starts by arriving at Manali. To explore the beauty of the place we will spend the day there. For some rest, you will first take to your hotels where you will spend the night. In the meantime, we have planned some adventurous and leisure activities there to enjoy your day.' },
+                { day: 3, title: 'Manali to Kaza', desc: 'The next Morning we are going to travel to KAZA bidding farewell to Manali. In between our travels, we have planned a memorable time to enjoy at Rohtang pass which connects the famous Kullu valley with our tour destiny Spiti Valley. After this gorgeous sightseeing, your day will end by reaching Kaza and checking in the hotel for the night.' },
+                { day: 4, title: 'Key Kibber Chichham', desc: 'The third day of the journey will start with energizing breakfast at the hotel and followed by planned sightseeing spots such as Ki-Monastery, Kibber Village, and Asia’s Highest bridge i.e Chichham. After uncovering these beautiful places with serene views we will travel back to our hotel at Kaza for the night stay.' },
+                { day: 5, title: 'Langza Komic Hikkim', desc: 'The fourth day of the tour is planned to explore the cultural history and religious places of the locals by visiting Komic, Hikkim-World’s highest post office, and Langza {Famous for iconic Buddha statues & Fossils}. After a long day of sightseeing, we have to travel back to our hotel at Kaza for our night rest.' },
+                { day: 6, title: 'Dhankar to Kaza', desc: 'On the fifth day of the trip, we will discover the monetary and gorgeous view of Lake Trek at Dhankar. In the evening we will return to Kaza and get in touch with their local cultures by visiting local markets of Kaza. The day will end at Kaza' },
+                { day: 7, title: 'Kaza to Chandratal', desc: 'The sixth day will start by travailing from Kaza to Chandertall. In between the traveling, we will have a quick stop at an amazingly beautiful place Kunzum Pass for sightseeing. On the arrival at Chandertall Camps, you have to track your way to Chandertall for sightseeing of its beautiful lake. The night stay for that day is booked in camps at Chandertall.' },
+                { day: 8, title: ' Chandratal to Manali', desc: 'At day seven our return journey starts. In the morning we are going to bid our farewell to Chandertall and heads towards Manali. In between, we will have a quick stop at Rohtang pass. The day will end at Manali where you will rest for the night.' },
+                { day: 9, title: 'Manali to Delhi', desc: 'On eight day we will start our day by exploring local places such as Hadimba Meta Temple sightseeing a Manali. In the meantime, we will board our buses and return to Delhi. The Volvo travel from Manali to Delhi is overnight travel.' },
+                { day: 10, title: ' Delhi Drop', desc: '' }
+            ],
+            inclusions: ['Heated Rooms/Homestays', '4x4 Gypsy/SUV', 'Meals'],
+            exclusions: ['Extreme Winter Gear', 'Heater extra cost', 'Lunch']
+        },
+        {
+            id: 's2',
+            title: 'Best of Spiti Valley Tour Package',
+            duration: '5 Nights / 6 Days',
+            price: '₹28,500',
+            rating: 4.8,
+            image: '/images/spt2.jpg',
+            features: ['Manali ', 'Kaza', 'Dhankar ', 'Pin Valley', 'Chandratal ', 'Delhi'],
+            overview: 'Experience the best of Spiti Valley with ancient monasteries, stark landscapes, high-altitude villages, and unforgettable Himalayan adventures.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Manali and Sightseeing', desc: 'Upon your arrival in Manali, the driver will pick you up from the Manali Bus Stand and take you to your pre-booked hotel. Check into the hotel and have breakfast. After some rest, go for a sightseeing tour, exploring Hadimba temple, Buddhist temple, Clubhouse (Retreat Center), Siyali Mahadev Temple, Van Vihar National Park, and Old Manali. Later, return to your hotel for an overnight stay.' },
+                { day: 2, title: 'Manali to Kaza via Kunzum Pass', desc: 'Post-check-out, the driver will pick you up from the hotel in Manali and take you to Kaza, a famous town in the Spiti Valley. On your way, pass through the popular Atal Tunnel and drive into the stunning green landscape to approach Chatru and Batal (green oasis in the Himalayas).Then, cross the Kunzum Pass, at 14,931 feet, before stopping at Losar Village, the first village in the Spiti Valley. Continue your journey to reach Kaza. Overnight stay in your pre-booked hotel in Kaza.' },
+                { day: 3, title: 'Sightseeing around Kaza', desc: 'The driver will pick you up from your hotel and take you on a sightseeing tour around Kaza. First, visit the highest village in Asia, Komik. Then proceed to Hikkim Village for a visit to the world’s highest post office. Afterward, visit Langza, a village that is home to the ancient Lang Temple. Next, explore the Key Monastery before visiting the beautiful Kibber Village. Last but not least, visit the secluded village of Gette before returning to your hotel in Kaza for an overnight stay.' },
+                { day: 4, title: 'Excursion to Tabo with Dhankar and Pin Valley', desc: 'The driver will pick you up from your hotel in Kaza and take you on an excursion to Tabo, a beautiful town in Himachal Pradesh. First, visit the 1020-year-old Tabo Monastery. Then, visit the tiny hamlet of Dhankar Village. Next, explore the Pin Valley, which houses a national park. Lastly, visit Kungri Monastery and the hamlet of Mudh, the last motorable village in the Pin Valley. Later, return to your hotel in Kaza.' },
+                { day: 5, title: 'Kaza to Chandratal Lake', desc: 'Post-check-out, the driver will pick you up from your hotel in Kaza and take you to Chandratal Lake, located on the Kaza-Manali road. Take in the beautiful scenery as you visit Chandratal, a beautiful lake with a striking backdrop of the Chandra Bhaga mountain range that keeps changing its appearance throughout the day. After admiring the beautiful lake, check into your pre-booked camp near Chandratal Lake for an overnight stay.' },
+                { day: 6, title: ' Chandratal Lake to Manali via Rohtang', desc: 'Post-check-out, the driver will pick you up from the campsite and take you back to Manali for your bus to Delhi. Take in the beautiful views of Geyan Peaks on the way and pass through the beautiful Atal Tunnel to reach Manali. You can spend some time at leisure exploring the Mall Road of Manali for shopping. With this, your Spiti Valley tour comes to an end.' },
+            ],
+            inclusions: ['Tempo Traveller/SUV', 'Breakfast & Dinner'],
+            exclusions: ['Lunch', 'Personal Expenses']
+        },
+        {
+            id: 's3',
+            title: 'Kinnaur Spiti Tour Package From Chandigarh',
+            duration: '9 Nights / 10 Days',
+            price: '₹24,000',
+            rating: 4.9,
+            image: '/images/spt3.jpg',
+            features: ['Chandigarh ', 'Sangla ', 'Kalpa '],
+            overview: 'Journey from Chandigarh to Kinnaur and Spiti, exploring high-altitude villages, monasteries, dramatic landscapes, and serene Himalayan beauty.',
+            itinerary: [
+                { day: 1, title: 'Journey from Chandigarh to Narakanda', desc: 'Begin your Spiti tour package from Chandigarh with hassle-free Kinnaur taxi service and enjoy a safe drive to Narakanda within 8 hours. During the road trip, you can experience the wonderful villages of Fagu, Theog, Matiana and Narakanda. Don’t forget to visit the evergreen apple orchids nearby. Spend the evening in a relaxing way at the Narakanda hotel.' },
+                { day: 2, title: ' Journey from Narakanda to Sangla via Sarahan', desc: 'Checkout from your hotel with a hearty breakfast and set off for Kinnaur Sangla via the opulent gateway to Kinnaur Valley, Sarahan. During the daunting Kinnaur tour package from Chandigarh, visit the Hattu peak (3,400 meters/ 11,154 feet) which will mesmerize you with the panoramic view of the Himalayas. Take a trip to the holy land and visit the auspicious wooden carved temple of Goddess Kali, Hawa Mahal, Cricket Ground, and monumental Mahal of King of Himachal. After rejuvenating your soul, drive to Sangla Valley and spend your night in a Sangla hotel.' },
+                { day: 3, title: 'Local Sightseeing of Chitkul Sangla Valley', desc: 'The Kinnaur Spiti tour package ensures local sightseeing of Chitkul Sangla Valley, during which you will visit the Kamru village and its classic fort. The Kamru Fort has been dedicated to the holy Goddess Kamaksha Devi. The Kinnaur tour plan consists of the visit to Sangla, which is renowned for its enthralling scenic view and sloping architecture. After interacting with the local people, setoff towards another village, Chitkul to experience the Indo-Tibetan lifestyle. At the Baspa Valley, catch a glimpse of the natural beauty, before heading to your hotel.' },
+                { day: 4, title: 'Local Sightseeing from Sangla to Kalpa', desc: 'Drive to the native Kalpa village from your Sangla hotel after a healthy breakfast and with the Kinnaur Spiti tour package, explore Recongpeo, the district headquarters of Kinnaur district. The 3-hour drive to the Kalpa village is an absolute fun ride and after a delicious lunch at the local restaurant, travel towards Kalpa and Roghi village. Experience the delicate juicy apples and crunchy apricots in these villages and don’t forget to catch a glimpse of the magnificent Mt. Kinner Kailash Mountain. Spend your evening at the hotel in Kalpa Valley.' },
+                { day: 5, title: 'Journey from Kalpa to Tabo', desc: 'The Kinnaur taxi package ensures a comfortable 9-hour drive to Tabo from Kalpa Valley. During the journey, you can explore the charming Puh, Nako, and Gue villages – the ultimate Indian village on Indo-Tibetan border. You can also stopover at the naturally preserved mummy of a Buddhist monk, which is almost 600 years old. Check-in to your hotel after arriving in Tabo.' },
+                { day: 6, title: 'Journey from Tabo to Kaza', desc: 'A fresh morning deserves an appetizing breakfast and after that, you can begin your Tabo to Kaza trip by visiting the ethereal and holy monastery in the Himalayas, the Tabo Monastery. Enjoy your 3-hour hassle-free drive to Kaza and don’t forget to visit the Dhankar village, Dhankar monastery and fort. The mesmerizing ambiance will enthrall you to halt for a while and enjoy a warm cup of coffee with the local people. In the evening, return to your checked-in hotel in Kaza.' },
+                { day: 7, title: 'Local Sightseeing around Kaza', desc: 'Explore the authentic Lagnza village after your breakfast in the hotel and with the enriching ambiance, you are sure going to enjoy the Kinnaur Kalpa Kaza tour. Along with visiting the local market, you can also stopover at the Hikkim village and visit the Kee Monastery and the Kibber village for their unique cultures. The breathtaking view complements the pleasant weather which will mesmerize you immensely. Enjoy the appetizing Indian and Tibetan delicacies for your lunch at the local restaurant. In the evening, setoff towards your hotel to relax.' },
+                { day: 8, title: 'Journey from Kaza to Chandertal Lake', desc: 'Explore the adventuresome Kinnaur Kalpa Kaza tour as you set off towards Chandertal Lake by crossing Kunzum Pass and Baltal. The magnificent peak ranges along with the panoramic scenic beauties are absolutely mind-boggling. Spend your day judiciously by enjoying the beauty of the nature and nearby lake. In the evening, return to your overnight camp stationed at the Chandertal Lake.' },
+                { day: 9, title: 'Journey from Chandertal to Manali', desc: 'A hectic day of the Kinnaur to Chandigarh tour package, you will begin your day at the earliest, around 6.30 a.m. by setting off towards Manali and stopping over at Chandertal Lake camp for breakfast and lunch. While you drive through the passage, you will be crossing over two high mountain passes – Kunzum pass (4,558 metres / 14,950 feet) and Rohtang Pass. Make sure you visit the holy temples and the attractive glaciers and views of CB peaks. Spend the night in your Manali hotel.' },
+                { day: 9, title: 'Journey from Manali to Chandigarh', desc: 'The Kinnaur tour package comes to an end, as you are driven from Kullu to Chandigarh, while crossing Aut, Hanogi devi temple and Pandoh Dam. The Kinnaur taxi package ensures a safe drive to your ultimate destination in Chandigarh.' }
+            ],
+            inclusions: [ 'Stay & Meals'],
+            exclusions: [ 'Lunch']
+        }
+    ],
+    ladakh: [
+        {
+            id: 'l1',
+            title: 'Best Of Ladakh Tour Package',
+            duration: '9 Nights / 10 Days',
+            price: '₹35,000',
+            rating: 4.9,
+            image: '/images/ldkh1.jpg',
+            features: ['Delhi ', ' Indus Valley Tour', 'Nubra Valley'],
+            overview: 'Explore the best of Ladakh with majestic mountains, serene lakes, ancient monasteries, high passes, and unforgettable high-altitude adventures.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Leh', desc: 'Arrive at Delhi airport and board a morning flight to Leh. Upon arrival, you’ll be greeted with the stunning landscape of the high-altitude Ladakh region. After check-in, rest and acclimatize to the high altitude to avoid any altitude sickness. In the evening, enjoy a leisurely stroll around the Leh Market and take in the local culture. Overnight stay at Leh.' },
+                { day: 2, title: 'Leh Sightseeing – Shanti Stupa, Leh Palace, and Local Markets', desc: 'Today’s focus is exploring Leh iconic sites. Visit the Shanti Stupa for breathtaking views of Leh and the surrounding mountains. Next, explore the Leh Palace, a historic 17th-century royal residence that offers panoramic views of the town. Wrap up your day with a visit to the bustling Leh Market, where you can shop for local handicrafts. Overnight in Leh.' },
+                { day: 3, title: 'Leh to Nubra Valley via Khardung La Pass', desc: 'Begin your journey to the scenic Nubra Valley. The drive takes you over Khardung La, one of the world’s highest motorable passes. Descend into Nubra, known for its sand dunes and Bactrian camels. In the afternoon, enjoy a camel ride in the Hunder Sand Dunes. Overnight stay in Nubra Valley.' },
+                { day: 4, title: ' Nubra Valley – Diskit Monastery and Local Villages', desc: 'Visit Diskit Monastery, one of the oldest in Nubra, to witness the impressive Maitreya Buddha statue and panoramic views. Afterward, explore nearby villages and interact with locals to learn about their unique lifestyle. Overnight stay in Nubra Valley' },
+                { day: 5, title: 'Nubra Valley to Tsomoriri Lake', desc: 'Today, head towards Tsomoriri Lake, passing through scenic landscapes. Known for its clear blue water and surrounded by majestic mountains, Tsomoriri is one of the most beautiful high-altitude lakes in Ladakh. Spend the evening enjoying the tranquil surroundings. Overnight at Tsomoriri.' },
+                { day: 6, title: 'Tsomoriri Lake Exploration', desc: 'Spend the day exploring Tsomoriri Lake and its surroundings. Visit the nearby Korzok Village, where you can interact with the Changpa nomads. Enjoy birdwatching as the lake is home to a variety of migratory birds. Overnight stay at Tsomoriri.' },
+                { day: 7, title: ' Tsomoriri to Leh', desc: 'Return to Leh, enjoying the mesmerizing landscapes on the way. Upon arrival, spend the evening at leisure or explore Leh local markets and cafes. Overnight stay in Leh.' },
+                { day: 8, title: ' Leh to Uleytokpo via Alchi Monastery', desc: 'Travel to Uleytokpo, with a stop at the famous Alchi Monastery, known for its ancient murals and carvings. Reach Uleytokpo, a peaceful village perfect for relaxation amidst nature. Overnight stay at Uleytokpo.' },
+                { day: 9, title: 'Uleytokpo to Leh', desc: 'After breakfast, return to Leh, enjoying the scenic beauty en route. Spend the afternoon exploring Leh or relaxing at the hotel. Overnight stay in Leh.' },
+                { day: 10, title: 'Leh to Delhi', desc: 'Bid farewell to Ladakh and board your flight back to Delhi, carrying memories of breathtaking landscapes and cultural experiences.' },
+            ],
+            inclusions: ['Meals', ],
+            exclusions: ['Lunch', ]
+        },
+        {
+            id: 'l2',
+            title: 'Journey To Ladakh Tour Package',
+            duration: '6 Nights / 7 Days',
+            price: '₹29,500',
+            rating: 4.7,
+            image: '/images/ldk2.jpg',
+            features: ['Delhi ', 'Leh ', 'Alchi '],
+            overview: 'Embark on a journey to Ladakh with stunning landscapes, pristine lakes, ancient monasteries, and thrilling high-altitude experiences.',
+            itinerary: [
+                { day: 1, title: 'Delhi to Leh', desc: 'On arrival at Kushok Bakula airport in Leh (situated at a height of 3,500 meters), you will be transferred to your hotel (2-3 kilometers from airport). During the day, acclimatize yourself with the weather and high pressure of Ladakh.Stay overnight at the hotel.' },
+                { day: 2, title: 'Leh - Alchi - Leh (68 kms / 2-3 hrs).', desc: 'In the morning, drive towards west of Leh and explore the miniature paintings of Alchi Monastery. The foundation stone of Alchi Monastery was laid sometime back in 990 A.D. En route, drive past Magnetic Hall and confluence of Indus and Zanskar River at Nimu. While heading back to Leh, en route visit Military Hall of Fame.Stay overnight at the hotel in Leh.' },
+                { day: 3, title: 'Leh - Nubra Valley (125km / 4-5 hrs).', desc: 'Early morning, leave on road to Nubra Valley via Khardongla Pass which is situated at a height of 18360 ft and considered as the highest motorable pass of the world. In the afternoon, explore Hunder & Diskit monastery and white sand dunes via camel safari. The safari tour is done with double humped camels that are found only in Nubra Valley.Stay overnight at the Deluxe Camp/Hotel.' },
+                { day: 4, title: 'Nubra Valley - Leh (155 kms / 5-6 hrs).', desc: 'Following the Samstanling Monastery tour in the morning, you will drive back to Leh via Khardongla Pass. In the evening, explore the local bazaars (markets) of Leh. One can purchase shopping items such as Pashmina shawls, Chinese cutleries, good pearls and Ladakhi woolen handicrafts. Stay overnight at the hotel.' },
+                { day: 5, title: 'Leh to Pangong Lake (135 km / 4400m).', desc: 'A full day tour of Pangong Lake is scheduled for the itinerary of 5th day. The Pangong Lake is around 135 kilometers away from Leh and situated at an elevation of 4,400 meters. En route, cross Chang la pass and drive through Durbuk and Tangtse village situated in the Changthang region of Ladakh.In the afternoon, explore the lake and its surroundings. A tour of the local village will enable cultural insight into Leh.Stay overnight at the tented camp.' },
+                { day: 6, title: 'Pangong to Leh', desc: 'During early morning, you can enjoy a photo-session around the lake. Post breakfast, drive back to Leh. An optional tour of Hemis Monastery (5 kilometer away from Leh near Kharu) is also on the cards. Hemis is the largest and richest monastery complex in Ladakh. Drive back to Leh by noon. In the afternoon, enjoy a shopping tour in the local markets of Leh.Stay overnight at the hotel.' },
+                { day: 7, title: 'Leh - Delhi (Departure).', desc: 'In the morning, you will be escorted to Kushok Bakula airport to catch flight for onward destination.' }
+            ],
+            inclusions: ['Breakfast & Dinner'],
+            exclusions: [ 'Lunch',]
+        },
+        {
+            id: 'l3',
+            title: 'Leh Ladakh with Pangong Lake Tour',
+            duration: '4 Nights / 5 Days',
+            price: '₹31,000',
+            rating: 4.8,
+            image: '/images/pangong.jpg',
+            features: ['Leh ', 'Sham Valley', 'Khardungla '],
+            overview: 'Explore Leh Ladakh with Pangong Lake, enjoying crystal-clear waters, rugged mountains, monasteries, and unforgettable Himalayan beauty',
+            itinerary: [
+                { day: 1, title: ' Arrival in Leh', desc: 'After landing in Leh, get welcomed by a representative, who will help in smooth transfer to the hotel. Upon reaching your hotel, complete the check-in formalities and spend a relaxing day getting proper rest. Enjoy a hearty breakfast in the hotel and gradually get acclimatized to the climate. Attend a short briefing and start your sightseeing in the evening by visiting the beautifully constructed Shanti Stupa, which was built to commemorate the 2500 years of Buddhism. Visit the Leh Palace which was built in the 17th century that will give you an insight into the bygone golden era of Leh. Later visit the local Leh Market to buy some Tibetan handicrafts or go cafe hopping to try the delicious Ladakhi cuisine. Return back to the hotel for a lip-smacking dinner. Overnight stay at the hotel in Leh.' },
+                { day: 2, title: 'Leh to Sham Valley', desc: 'Wake up to a beautiful morning in the mountains and have a hearty breakfast. Get ready for an adventurous drive to Sham Valley, which is beautifully nestled around the Srinagar - Leh highway. Start off the sightseeing by paying homage to the martyrs of the Indo-Pak War at the Hall of Fame. Visit the Spituk Gompa which also has a museum on the premises housing ancient masks, weapons and Thangkas (Buddhist Paintings). Enjoy delicious langar at Gurudwara Pathar Sahib and know the story behind the construction of this Gurudwara by the army. Another interesting place to visit today is Magnetic Hill, a small stretch of the road that defies the law of gravity. Visit Indus Sangam Viewpoint to watch the confluence of Zanskar and Indus Rivers. Visit SECMOL which is the real 3-idiots school. After a day filled with fun and adventure, return back to the hotel for dinner and an overnight stay in Leh.' },
+                { day: 3, title: 'Leh to Khardung-La Pass', desc: 'After having a healthy breakfast in the morning, get ready for the ultimate adventure. This journey will take you through some of the highest passes in the world and will greet you with the ever-changing views of the barren land. Take a stopover at the cafe on Khardung-La Pass, the world highest all-season motorable road and soak in the views as you will feel like on top of the world. After an amazing journey to Khardung La Pass, you can then head back to Leh. Once back in Leh, enjoy leisure time to roam around at Mall Road buy souvenirs for your loved ones Overnight stay at hotel in Leh.' },
+                { day: 4, title: 'Leh to Pangong Lake', desc: 'Wake up in the morning and have a scrumptious breakfast. Get ready for the most awaited day as you will be visiting Pangong Lake on the Indo-China border. One of the highest altitude saline water lakes, Pangong Tso will greet you with its changing colours from shades of blue to green to red. Spend some time exploring the surroundings of the Pangong Lake with the view of the Shyok river on one side and the mountains on another side. You can also recreate some of the moments from your favourite Bollywood movies like 3-idiots and Jab Tak Hai Jaan and enjoy the place in Bollywood style. On your way back to Leh, take a small stopover at the Chang-la Pass, which is one of the highest mountain passes in the world. You can also visit the Chang-la Cafe, located just on the Changla Pass. Visit the Changla Baba Temple on top, after which the pass got its name and is believed to be the guardian of the people visiting Chang La. Further, visit the Druk Padma School, famed for the movie ‘3 Idiots’ as the site where the last scene was shot. One can also visit the beautifully structured Thiksey Monastery en-route, if time permits. Upon reaching Leh, hed directly to your hotel. Overnight stay at a hotel in Leh.' },
+                { day: 5, title: 'Departure', desc: 'After having your breakfast in the morning, complete the check out formalities at the hotel. Later, you will be transferred to the airport for your onwards journey. Fly out of Leh and say goodbye to your fellow travellers and this magical land.' },
+            ],
+            inclusions: ['Hotel Stay', 'Guide for Festival', 'Transport', 'Meals'],
+            exclusions: ['Lunch']
+        }
+    ],
+    uttarakhand: [
+        {
+            id: 'u1',
+            title: 'Kedarnath Group Tour From Delhi',
+            duration: '4 Nights / 5 Days',
+            price: '₹42,000',
+            rating: 4.9,
+            image: '/images/kd1.jpg',
+            features: ['Delhi ', 'Haridwar ', 'Guptkashi '],
+            overview: 'Join a Kedarnath group tour from Delhi, experiencing sacred temples, scenic mountain routes, spiritual devotion, and memorable Himalayan journeys.',
+            itinerary: [
+                { day: 1, title: 'Delhi to Hardidwar', desc: 'Meet up at the departure point of the vehicle in Delhi that will be communicated to you in advance. Overnight Journey towards Haridwar.' },
+                { day: 2, title: 'Haridwar - Guptkashi', desc: 'Reach Haridwar in the Morning, Where you can rest for a while before starting your onward journey to Guptkashi At around 10:30 AM proceed towards Guptkashi, On the way take a short stopover at Devprayag where you can witness the Holy Sangam of Bhagirathi and Alaknanda that together form Ganga. After this, You will get back on the way to Guptkashi witnessing some of the most Beautiful Landscapes. On reaching Guptkashi, Check-In into the Hotel Overnight stay at Guptkashi.' },
+                { day: 3, title: 'Guptakashi - Gaurikund - Kedarnath', desc: 'Wake up early and have a delicious breakfast. Head towards Sonprayag where your trekking to Kedarnath will start. Have a delicious breakfast and get transferred from Guptkashi to Sonprayag. Once we reach Sonprayag, we have to walk to the Government Union taxi stand, to reach Gaurikund. (Walk for 1 Km as no private vehicles are allowed in Gaurikund) Reach Gaurikund, Start the trek to the Kedarnath from Gaurikund. You can take ponies or palanquins for the journey to make it slightly on a comfortable side. (Own Expense). Trek through the beautiful valley and river stream. You can take a lunch stop in between and continue the journey, you will get to see the Kedarnath Temple, situated right at the center of the valley with mountains. On reaching Kedarnath, you will witness the whole valley is filled with the sound of ringing bells and prayers going on everywhere this will surely provide relief to your soul. Overnight stay in Kedarnath.' },
+                { day: 4, title: 'Kedarnath - Rishikesh', desc: 'Wake up early and have a delicious breakfast.Head towards Gaurikund from Kedarnath, you can take ponies or palanquins for the journey to make it slightly on a comfortable side. (Own Expense).Once you reach Gaurikund from there will proceed to Sonprayag by a government Taxi.Arrive at Sonprayag from where you wll go to Guptkashi/Rampur (Walk for 1 Km is required at Sonpragyag as no private vehicles are allowed after a certain point) Youwll then start traveling back to Rishikesh.On arrival at Rishikesh, complete the check-in formalities, freshen up, and head over to explore RishikeshIf time permits you can explore colorful markets, Ram Jhula & Laxman Jhula.Have dinner at Rishikesh & take a rest.Overnight Stay at Rishikesh.' },
+                { day: 5, title: 'Rishikesh to Delhi', desc: 'Wake up in the morning & get ready to experience the thrill of rafting through the cold waters of Ganga. Get transferred to the start point for Rafting. Experience a round of enthralling rapids hitting your face and body whilst you drift by curves in the flowing river is a memory to be cherished, take a rest stop at the maggie point & go for cliff jumping. Get ready for the adrenaline rush & the excitement experienced while riding & tumbling down the white waters of a fast-flowing river while rafting & reach Neem Beach. Get transferred to the hotel where you can freshen up &have your delicious breakfast. Complete the check-out formalities of the hotel & depart for Delhi. Conclude the trip with glorious memories after reaching Delhi.' },
+            ],
+            inclusions: ['Specilaized Bilingual Guide', 'Vegetarian Meals', 'Transport', 'Accommodation in Hotel as per the variant selected'],
+            exclusions: ['Helicopter Tickets', 'Palki/Pony', 'VIP Pass']
+        },
+        {
+            id: 'u2',
+            title: 'Nainital Auli Tour Package',
+            duration: '5 Nights / 6 Days',
+            price: '₹18,500',
+            rating: 4.6,
+            image: '/images/nanitial.jpg',
+            features: ['Delhi ', 'Nainital ', 'Joshimath '],
+            overview: 'Enjoy Nainital and Auli with serene lakes, snow adventures, scenic hills, and refreshing Himalayan holiday experiences.',
+            itinerary: [
+                { day: 1, title: 'Delhi to Nainital', desc: 'Your amazing Uttarakhand Tour starts from Delhi. Head to the pickup point in Delhi from where a representative will help you get transferred to Nainital. As you travel to Nainital, you will be able to enjoy stunning views of the valleys along with the beautiful Naini Lake. Once you reach Nainital, you can check in to the hotel and take some rest. You can then visit the famous Naina Devi Temple, one of the shakti-peeths, where according to a popular belief, the eyes of Goddess Sati fell after her self-immolation. You can then stroll through the various lanes of Mall Road and can also enjoy a beautiful sunset while boating in Naini Lake. Later you can return back to your hotel. Overnight stay at the hotel in Nainital.' },
+                { day: 2, title: 'Haridwar - Nainital to Kausani via Almora', desc: 'Wake up to a beautiful view of the valley, enjoy a scrumptious breakfast and check out from the hotel. Visit the famous Cave Garden which is a cluster of six interconnected caves made in the shapes of animals like panthers, tigers, etc and later visit Lovers Point, Land’s End and Snow Point to get unobstructed views of the Kumaon mountain range. Take a horse ride to the upper points like Tiffin Top, Naina peak. Upon completion of sightseeing of Nainital, head out to explore the serene town of Almora. Travel to the famous Kasar Devi Temple that sits quietly above the hilltop overlooking the beautiful town of Almora. Visit the Chitai Temple located atop a nearby hill. Travel to the Kumaon Regimental Center Museum that tells the stories and tales of heroic valor of the Kumaon Regiment. Later in the evening transfer to Kausani. Upon reaching Kausani, check in to the hotel for an overnight stay.' },
+                { day: 3, title: ' Kausani to Joshimath', desc: 'Wake up to a beautiful morning and have a delicious breakfast. You can then travel to Joshimath which is situated in the foothills of the Nanda Devi National Park. Drive past the thick forests and the beautiful hill stations towards Karnaprayag where you can enjoy sightseeing for sometime before embarking on the final leg of the journey to Joshimath. Upon reaching Joshimath, check-in to the hotel and take some rest. The rest of the day is at leisure and you are free to explore the surroundings at your own pace. Overnight stay at the hotel in Joshimath.' },
+                { day: 4, title: 'Excursion to Auli', desc: 'Wake up early to a beautiful morning and have a healthy breakfast. You can then get ready to embark on a full-day scenic tour to Auli. You can choose to drive to Auli by road or can also take the 4 KM long Gondola Ride from Joshimath to Auli. The Ropeway to Auli greets you with some of the best views of the Snow-Capped Himalayas and the dense oak forests that surrounds this beautiful ski resort. On reaching Auli, you can spend a great time walking along the beautiful Auli Lake and admire the refreshing breeze and magnificent panorama. Here you can also indulge in various adventurous activities or try your hands at Skiing through the snow. While in Auli, you can also choose to take a short trek up to the Gorson Bugyal that lies at an altitude of 3056 mts. You can also trek further up to Chattarkund, located in the center of a dense forest, which is famous for its sweet water. Later in the evening, start the journey back to Joshimath after a day full of fun and adventure. Overnight stay at the hotel in Joshimath.' },
+                { day: 5, title: 'Joshimath to Rishikesh', desc: 'Have a delicious breakfast and check out from the hotel.You can then set off on your journey towards Rishikesh and bid a dieu to the majestic Nanda Devi Parbat.Upon reaching Rishikesh, check-in to the hotel and take some rest before leaving for a local sightseeing tour.Once you are ready, visit one of the most revered sights in Rishikesh - Neelkanth Mahadev Temple, which according to mythological beliefs is a place where Lord Shiva drank the poison that turned his throat blue.Later, you can spend some time meditating at the Beatles Ashram, where the famous band learned meditation and composed a number of songs.You can also head to the Triveni Ghat that turns into a riot of colors in the evening for the auspicious Ganga Aarti.After witnessing a surreal Ganga Aarti, return back to the hotel and call it a day.Overnight stay at the hotel in Rishikesh.' },
+                { day: 6, title: 'Rishikesh sightseeing and departure to Delhi', desc: 'Wake up to a beautiful morning in the mountains and have a delicious breakfast. Pack your bags and complete the check–out formalities. Before heading back to Delhi, you can visit few important places in Rishikesh. Once you are ready to experience water adventure, travel to Shivpuri, from where you can head out for a rafting session till Laxman Jhula and get face to face with the thrilling rapids in the glaciated Ganga. You can also level up your adventure by daring to cliff jump into the cold water of the river and can also enjoy having a bowl of hot Maggi during the short stopover while rafting.Don’t forget to feel the spiritual vibes during the holy Ganga Aarti at Triveni Ghat in Rishikesh which will add up to your lively evening. You can then set off on your journey back towards Delhi. Conclude the tour with beautiful memories on reaching your desired destination in Delhi for your onward journey.' }
+            ],
+            inclusions: ['Hotels', 'Breakfast', 'Standard Cab'],
+            exclusions: ['Boat Ride Fees', 'Lunch', 'Entry Tickets']
+        },
+        {
+            id: 'u3',
+            title: 'Auli Skiing and Adventure Tour Package',
+            duration: '4 Nights / 5 Days',
+            price: '₹11,000',
+            rating: 4.8,
+            image: '/images/aulii.jpg',
+            features: ['Joshimath', 'Auli ', 'Haridwar'],
+            overview: 'Experience Auli’s skiing and adventure tour with snow-covered slopes, thrilling activities, stunning Himalayan views, and memorable winter fun.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Joshimath', desc: 'Your adventure begins as you arrive at Joshimath, a charming town nestled in the foothills of the Himalayas. It’s an excellent base to explore the ski slopes of Auli and the surrounding regions. Upon arrival, check into your hotel and rest. In the afternoon, explore Joshimath’s picturesque streets, visit the famous Narsingh Temple, and take a leisurely walk through the town, soaking in the serene vibes of this spiritual town. The evening can be spent enjoying local cuisine at your hotel. Overnight stay in Joshimath.' },
+                { day: 2, title: 'Joshimath to Auli Skiing', desc: 'Post breakfast, transfer to Auli, one of India’s premier skiing destinations. Auli, with its breathtaking views of snow-capped peaks and vast ski slopes, is a paradise for adventure enthusiasts. Upon arrival, check into your resort or guesthouse in Auli. After a brief rest, you will be introduced to the skiing area. Begin your skiing experience with an instructor who will guide you through the basics of skiing on Auli’s pristine slopes. You will have ample time to practice your skills throughout the day, with breaks to enjoy the snow-covered landscapes and the stunning views of the Nanda Devi and other surrounding peaks. Afterward, return to your accommodation for dinner and an overnight stay in Auli.' },
+                { day: 3, title: 'Skiing and Adventure Activities in Auli', desc: 'Day 3 is dedicated to more skiing and adventure activities in Auli. Start your day early with a hearty breakfast, then head to the slopes for another round of skiing. You will be able to improve your technique and confidence on the slopes, with your instructor offering tips and guidance. In addition to skiing, there are other activities to enjoy in Auli, such as snowboarding, snowshoeing, and tobogganing. The region is also famous for its breathtaking cable car ride, which offers panoramic views of the Himalayan peaks. Enjoy a break for lunch at a local café in Auli before continuing your activities. In the evening, relax in your hotel or explore the surrounding area. Overnight stay in Auli.' },
+                { day: 4, title: 'Auli to Joshimath and Drive to Haridwar', desc: 'After an adventurous few days in Auli, its time to head back to Joshimath. After breakfast, descend from Auli and make your way back to Joshimath. On your return, you can take a moment to visit the nearby temples or just enjoy the peace of the town. Afterward, continue your journey to Haridwar, a significant pilgrimage city on the banks of the Ganges. The drive will take around 8-9 hours, so enjoy the scenic views along the way. Upon arrival in Haridwar, check into your hotel and relax. In the evening, head to Har Ki Pauri to witness the mesmerizing Ganga Aarti, a spiritual experience that will surely leave you in awe. Overnight stay in Haridwar.' },
+                { day: 5, title: 'Explore Haridwar and Departure', desc: 'On the final day of your tour, take time to explore the spiritual city of Haridwar. Visit important temples like Mansa Devi and Chandi Devi, both of which offer beautiful views of the town and the Ganges River. You can also stroll along the ghats, take a dip in the holy river, or shop for local handicrafts and souvenirs. After a day of spiritual exploration, proceed to the Haridwar railway station or bus stand for your onward journey, bringing back unforgettable memories of your Auli Skiing and Adventure Tour.' }
+            ],
+            inclusions: ['Luxury Resort', 'All Meals', '1 Jeep Safari'],
+            exclusions: ['Extra Safari', 'Transport from Delhi']
+        }
+    ],
+    kashmir: [
+        {
+            id: 'k1',
+            title: 'Romantic Escape to Kashmir Tour',
+            duration: '5 Nights / 6 Days',
+            price: '₹22,500',
+            rating: 4.8,
+            image: '/images/hero10.png',
+            features: ['Srinagar', 'Gulmarg', 'Pahalgam'],
+            overview: 'Romantic Escape to Kashmir Tour promises memories for a lifetime.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Srinagar', desc: 'Upon arrival, get assisted to the hotel and check-in. Later, board the transfer for a sightseeing tour of Srinagar. Visit famous attractions like Nishat Bagh, Tulip Garden, Pari Mahal, and more. Post sightseeing, get transferred back to the hotel for an overnight stay.' },
+                { day: 2, title: ' Excursion to Sonmarg', desc: 'Get transferred for an excursion to Sonmarg. Upon arrival, enjoy a horse ride to the beautiful Thajiwas Glacier and admire the scenic views of the surroundings. You can also experience white water rafting on Sindh River while here. Later, board your transfer back to the hotel for an overnight stay.' },
+                { day: 3, title: ' Excursion to Gulmarg', desc: 'Post check-out, get transferred to the Union cab stand from where you can take a cab for an excursion to Gulmarg. You can enjoy a Gulmarg Gondola ride and visit the Drung Waterfall. Later, return to the Union cab stand and get assisted to the houseboat. Check-in and have an overnight stay.' },
+                { day: 4, title: ' Arrival in Pahalgam', desc: 'Check-out from your houseboat and get transferred to your hotel in Pahalgam for check-in. Later, board your transfer to the Union cab stand, from where you can take a cab to visit Aru Valley, Betaab Valley & Chandanwari. Post-sightseeing, get transferred back to the hotel for an overnight stay.' },
+                { day: 5, title: 'Srinagar Sightseeing', desc: 'Post check-out, get transferred from the hotel to the houseboat in Srinagar for check-in. Later, get assisted for a sightseeing tour and visit Lal Chowk, Shankaracharya Temple, and Badamwari. Then, enjoy a shikara ride on Dal Lake. Board your transfer back to the houseboat for an overnight stay.' },
+                { day: 6, title: 'Departure Day', desc: 'After breakfast, pack your bags and check-out from your houseboat. Get transferred to the Srinagar airport, where your trip will come to an end..' }
+            ],
+            inclusions: ['3 Star Hotels', 'Houseboat Stay', 'Breakfast & Dinner', 'Non-AC Cab'],
+            exclusions: ['Gondola Tickets', 'Union Cab in Pahalgam', 'Lunch']
+        },
+        {
+            id: 'k2',
+            title: 'Experience the Luxury of Kashmir Tour',
+            duration: '4 Nights / 5 Days',
+            price: '₹32,000',
+            rating: 5.0,
+            image: '/images/expkashmir.jpg',
+            features: ['Srinagar ', 'Pahalgam ', 'Srinagar '],
+            overview: 'Experience the Luxury of Kashmir Tour promises an unforgettable journey.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Srinagar', desc: 'Upon arrival in Srinagar, the driver will pick you up from Srinagar International Airport and transfer you to hotel. Once you check-in, the remaining day is yours to enjoy and rejuvenate. You can stroll through the local markets like Polo View Market & Nishat market, or visit the Nigeen lake with its shimmering waters and the houseboats.' },
+                { day: 2, title: 'Srinagar to Pahalgam', desc: 'Post check-out, the driver will pick you up from the hotel and transfer you to Pahalgam. On the way, visit the beautiful apple orchards & saffron fields. Upon arrival in Pahalgam, check-in to your hotel & get ready for a sightseeing tour. You can opt for river rafting at the Lidder River. Visit the famous Aru Valley, Betaab Valley & Chandanwari & admire the views of snow-capped mountains. Post-sightseeing, get transferred to Pahalgam for an overnight stay.' },
+                { day: 3, title: 'Pahalgam to Srinagar', desc: 'Post check-out, the driver will pick you up from the hotel and transfer you to Srinagar. Reach Srinagar & check-in to your houseboat on Dal Lake. Visit the beautiful Mughal Gardens like Nishat Bagh, Shalimar Bagh, and Chashma Shahi. Explore the Shankaracharya Temple and go for a Shikhara ride on Dal Lake. Later visit Lal Chowk and shop for some souvenirs. Later, visit Lal Chowk & shop for some souvenirs. Return to your houseboat for an overnight stay.' },
+                { day: 4, title: 'Excursion to Gulmarg', desc: 'Check out from your hotel, from where the driver will pick you up and take you on a Gulmarg excursion. Reach Gulmarg & get dropped at the 2nd check-post, near the Gondola Point. Enjoy a roundtrip ride in the gondola to phase 1 & enjoy various activities. You can ascend to phase 2 (Apharwat Peak). After the Gondola ride, you can visit the Strawberry Valley & Drung Waterfall. Later, return to Srinagar & get transferred to your hotel for an overnight stay.' },
+                { day: 5, title: 'Departure from Srinagar', desc: 'Pack your bags and check-out from your houseboat in Srinagar. The driver will pick you up from the houseboat and drop you to the Srinagar Airport, where your tour will come to an end.' },
+            ],
+            inclusions: [ 'Hotels'],
+            exclusions: ['Flights', 'Lunch', 'Personal Expenses']
+        },
+        {
+            id: 'k3',
+            title: 'Best of Kashmir Tour Package',
+            duration: '5 Nights / 6 Days',
+            price: '₹26,500',
+            rating: 4.7,
+            image: '/images/best-of-kashmir.jpg',
+            features: ['Srinagar', 'Sonmarg', 'Gulmarg'],
+            overview: 'Experience the unmatched beauty of Kashmir, the paradise on earth.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Srinagar', desc: 'Upon arrival in Srinagar, the driver will pick you up from Srinagar International Airport and transfer you to hotel. Once you check-in, the remaining day is yours to enjoy and rejuvenate. You can stroll through the local markets like Polo View Market & Nishat market, or visit the Nigeen lake with its shimmering waters and the houseboats.' },
+                { day: 2, title: 'Excursion to Sonamarg', desc: 'The driver will pick you up from your hotel and take you on an excursion to Sonmarg. On arrival in Sonmarg, go for a horse ride to the beautiful Thajiwas Glacier viewpoint & enjoy the mesmerizing views of snowcapped mountains, meadows & conifer trees. Then, you can also go for a thrilling white water rafting adventure on the Sindh River. After your Sonamarg excursion, return to your hotel in Srinagar for an overnight stay.' },
+                { day: 3, title: 'Excursion to Gulmarg', desc: 'Check out from your hotel, from where the driver will pick you up and take you on a Gulmarg excursion. Reach Gulmarg & get dropped at the 2nd check-post, near the Gondola Point. Enjoy a roundtrip ride in the gondola to phase 1 & enjoy various activities. You can ascend to phase 2 (Apharwat Peak). After the Gondola ride, you can visit the Strawberry Valley & Drung Waterfall. Later, return to Srinagar & get transferred to your hotel for an overnight stay.' },
+                { day: 4, title: 'Srinagar to Pahalgam', desc: 'Post check-out, the driver will pick you up from the hotel and transfer you to Pahalgam. On the way, visit the beautiful apple orchards & saffron fields. Upon arrival in Pahalgam, check-in to your hotel & get ready for a sightseeing tour. You can opt for river rafting at the Lidder River. Visit the famous Aru Valley, Betaab Valley & Chandanwari & admire the views of snow-capped mountains. Post-sightseeing, get transferred to Pahalgam for an overnight stay.' },
+                { day: 5, title: 'Pahalgam to Srinagar', desc: 'Post check-out, the driver will pick you up from the hotel and transfer you to Srinagar. Reach Srinagar & check-in to your houseboat on Dal Lake. Visit the beautiful Mughal Gardens like Nishat Bagh, Shalimar Bagh, and Chashma Shahi. Explore the Shankaracharya Temple and go for a Shikhara ride on Dal Lake. Later visit Lal Chowk and shop for some souvenirs. Later, visit Lal Chowk & shop for some souvenirs. Return to your houseboat for an overnight stay.' },
+                { day: 6, title: 'Departure from Srinagar', desc: 'Pack your bags and check-out from your houseboat in Srinagar. The driver will pick you up from the houseboat and drop you to the Srinagar Airport, where your tour will come to an end.' },
+            ],
+            inclusions: ['Yatra Slip Assistance', 'Hotels', 'Transport', 'Meals'],
+            exclusions: ['Pony/Palki', 'Helicopter', 'Lunch']
+        },
+        {
+            id: 'k4',
+            title: 'Kashmir Retreat | Romantic Escape to Doodhpathri',
+            duration: '5 Nights / 6 Days',
+            price: '₹19,000',
+            rating: 4.9,
+            image: '/images/kashmr.jpg',
+            features: ['Srinagar', 'Pahalgam', 'Srinagar'],
+            overview: 'Kashmir Retreat to Doodhpathri promises memories to cherish forever.',
+            itinerary: [
+                { day: 1, title: 'Arrive Srinagar | Welcome to The Paradise on Earth', desc: 'Upon your arrival at Srinagar Airport, the driver will transfer you to your hotel in Srinagar. Once you check in, the remaining day is yours to enjoy and rejuvenate. You can explore some prominent attractions in the city like Tulip Garden, Chashma Shahi, Botanical Gardens, & Pari Mahal (at your own expense). Have an overnight stay in Srinagar.' },
+                { day: 2, title: 'Excursion to Gulmarg | Enjoy Asia Highest Cable Car Ride', desc: 'The driver will pick you up from your hotel and take you on an excursion to Gulmarg through a scenic route. On your arrival in Gulmarg, your driver will drop you at the 2nd check-post, from where you can go for the ride on Gulmarg Gondola. Enjoy the scenic ride in the gondola to Apharwat Peak from where you can view snow-capped mountains. After the exciting gondola ride, you can also visit the beautiful Strawberry Valley & Drung Waterfall. Head back to Srinagar for an overnight stay.' },
+                { day: 3, title: 'Excursion to Doodhpathri | Explore the Beautiful Valley of Milk', desc: 'The driver will pick you up from your hotel and take you on an excursion to Doodhpathri. Stroll through the panoramic Valley of Milk’ and marvel at the vast green meadows and the that rivers seem like milky streams. After the sightseeing, return to Srinagar and explore some nearby markets. You can visit Badshah Chowk & Zaina Kadal Market and shop for some unique souvenirs. Have an overnight stay in Srinagar.' },
+                { day: 4, title: 'Srinagar to Pahalgam | A Journey to ABC Valleys', desc: 'Post check-out, driver will pick you up from the hotel & transfer you to Pahalgam. On the way, visit the beautiful apple orchards & saffron fields. Upon arrival in Pahalgam, check in to your hotel & go for a sightseeing tour. You can opt for river rafting at the Lidder River (at extra cost). Later, visit the famous Aru Valley, Betaab Valley & Chandanwari. Post-sightseeing, get transferred to the hotel in Pahalgam for an overnight stay.' },
+                { day: 5, title: 'Pahalgam to Srinagar | Enjoy the Famous Shikara Ride in Dal Lake', desc: 'Post check-out, the driver will pick you up from the hotel and take you to Srinagar. Reach Srinagar and check in to your houseboat on Dal Lake. After check-in, visit the famous Mughal Gardens. You can go shopping at the busting Lal Chowk. Explore Shankaracharya Temple & Badam Wari Park. Enjoy an amazing Shikara ride on Dal Lake. Post-Shikara ride, return to your houseboat for an overnight stay.' },
+                { day: 5, title: 'Departure from Srinagar | Bid Farewell to The City of Lakes', desc: 'Pack your bags and check-out from your houseboat in Srinagar. The driver will pick you up from the houseboat and drop you to the Srinagar Airport, where your tour will come to an end.' }
+            ],
+            inclusions: ['Camps/Homestay', 'Permits', 'Meals', 'Transport'],
+            exclusions: ['Lunch', 'Personal Expenses']
+        },
+        {
+            id: 'k5',
+            title: 'Valley of Dreams | Kashmir Honeymoon Special',
+            duration: '3 Nights / 4 Days',
+            price: '₹16,500',
+            rating: 4.8,
+            image: '/images/vallweydr.jpg',
+            features: ['Pahalgam', 'Srinagar',],
+            overview: 'Snow-capped mountains create a magical backdrop for unforgettable moments.',
+            itinerary: [
+                { day: 1, title: 'Arrival in Srinagar | Transfer to Pahalgam | Sightseeing Tour', desc: 'Upon arrival at Srinagar airport, get transferred to your hotel in Pahalgam & check-in. Later, get driven to the Pahalgam Union Cab Stand, where you can hire a cab (at your own cost) to explore the iconic valleys of Pahalgam. Visit Aru Valley & Chandanwari, renowned for the breathtaking landscapes, & unwind by the riverbanks in Betaab Valley. If you are feeling adventurous, try rafting on Lidder River (additional cost) before returning to the cab stand. From there get driven back to the hotel.' },
+                { day: 2, title: 'Transfer to Srinagar | Sightseeing Tour | Shikara Ride at Dal Lake', desc: 'Today, check out from the hotel & get driven to Srinagar. Upon arrival, check in & relax before embarking on a sightseeing tour of the city. Visit the Shalimar Bagh, a stunning Mughal garden & Chashme Shahi, famed for its refreshing springs. Next, explore the Hazratbal Shrine, a revered religious site, & the historic Shankaracharya Temple, offering breathtaking views of the valley. Next, enjoy a Shikara ride on Dal Lake, admiring the surroundings. Afterwards, get transferred back to the hotel.' },
+                { day: 3, title: 'Day Trip to Gulmarg | Overnight Houseboat Stay', desc: 'Today, check out & get transferred to the Gulmarg Union Cab Stand. Upon arrival, hire a cab (at your own cost) for your Gulmarg sightseeing tour. Explore at your own pace, visiting the Drung Waterfall, known for its serene beauty, & enjoy a thrilling ride on the famous Gulmarg Gondola (additional cost). Afterward, return to the cab stand & get driven to your hotel in Srinagar to pick up your bags. Afterwards, get driven to Dal Lake, where you wll check in to stay overnight on a houseboat.' },
+                { day: 4, title: 'Departure', desc: 'In the morning, check out from the houseboat and get transferred to the Srinagar Airport for your onward journey. This marks the end of your trip.' },
+            ],
+            inclusions: [ ' Meals'],
+            exclusions: ['Backpack Offloading', 'Tip', 'Transport ot base camp']
+        }
+    ]
+};
