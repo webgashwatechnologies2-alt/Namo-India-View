@@ -33,14 +33,14 @@
 }
 
 .logo-img {
-    height: 50px;
-    width: auto;
+    height: 100px;
+    width: 100px;
     object-fit: contain;
     transition: all 0.3s ease;
 }
 
 .navbar.scrolled .logo-img {
-    height: 40px;
+    height: 100px;
 }
 
 .logo-icon {
@@ -221,44 +221,45 @@
     }
 
     .logo-img {
-        height: 35px;
+        height: 100px;
     }
 
     .nav-menu.desktop {
         display: none;
     }
 
-.mobile-toggle {
-display: block;
-padding: 5px;
-}
+    .mobile-toggle {
+        display: block;
+        padding: 5px;
+    }
 
-.mobile-menu {
-display: block;
-position: fixed;
-top: 0;
-right: 0;
-width: 280px;
-height: 100vh;
-background: #fff;
-z-index: 1001;
-transform: translateX(100%);
-transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-padding: 70px 25px;
-box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
-visibility: hidden;
-pointer-events: none;
-}
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 280px;
+        height: 100vh;
+        background: #fff;
+        z-index: 1001;
+        transform: translateX(100%);
+        transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        padding: 70px 25px;
+        box-shadow: -10px 0 30px rgba(0, 0, 0, 0.1);
+        visibility: hidden;
+        pointer-events: none;
+    }
 
-.mobile-menu.open {
-transform: translateX(0);
-visibility: visible;
-pointer-events: auto;
-}
+    .mobile-menu.open {
+        transform: translateX(0);
+        visibility: visible;
+        pointer-events: auto;
+    }
 
-.mobile-nav-item {
-margin-bottom: 5px;
-}
+    .mobile-nav-item {
+        margin-bottom: 5px;
+    }
+
     .mobile-nav-item a,
     .mobile-dropdown-header {
         display: flex;

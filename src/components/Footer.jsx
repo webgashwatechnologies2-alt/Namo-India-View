@@ -12,7 +12,7 @@ const Footer = () => {
                         {/* About Column */}
                         <div className="footer-col">
                             <Link to="/" className="footer-logo">
-                                <img src="/namologo.png" alt="Namo India Logo" className="footer-logo-img" />
+                                <img src="/namoologoo.png" alt="Namo India Logo" className="footer-logo-img" />
                             </Link>
                             <p className="footer-desc">
                                 Discover the beauty of India with Namo India. We provide premium travel experiences,

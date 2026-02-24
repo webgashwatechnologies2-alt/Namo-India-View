@@ -65,7 +65,7 @@ const Navbar = () => {
       <div className="nav-container">
         <Link to="/" className="nav-logo">
           <img
-            src="/namologo.png"
+            src="/namoologoo.png"
             alt="Namo India Logo"
             className="logo-img"
           />
